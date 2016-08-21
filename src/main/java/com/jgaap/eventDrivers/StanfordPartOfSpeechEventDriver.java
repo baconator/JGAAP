@@ -51,7 +51,7 @@ public class StanfordPartOfSpeechEventDriver extends EventDriver {
 			synchronized (this) {
 				if (tagger == null) {
 					String taggingModel = getParameter("taggingModel", "english-left3words-distsim");
-					taggingModel = "models/postagger/" + taggingModel + ".tagger";
+					taggingModel = "com/jgaap/resources/models/postagger/" + taggingModel + ".tagger";
 					try {
 						tagger = new MaxentTagger(taggingModel);
 					} catch (Exception e) {

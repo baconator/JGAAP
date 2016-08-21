@@ -51,7 +51,7 @@ public class ReactionTimeEventDriver extends NumericTransformationEventDriver {
     	return API.getInstance().getLanguage().getLanguage().equalsIgnoreCase("english");
     }
 
-    private static ImmutableMap<String, String> reactionTimes = getTransformationMap("ELPrt.dat"); 
+    private static ImmutableMap<String, String> reactionTimes = getTransformationMap("com/jgaap/resources/ELPrt.dat");
     private NaiveWordEventDriver wordEventDriver = new NaiveWordEventDriver();
 
     @Override

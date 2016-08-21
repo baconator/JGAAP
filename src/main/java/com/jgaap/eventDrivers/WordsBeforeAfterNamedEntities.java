@@ -17,7 +17,7 @@ import com.jgaap.util.EventSet;
 public class WordsBeforeAfterNamedEntities extends EventDriver {
 
 	private volatile AbstractSequenceClassifier<CoreLabel> classifier;
-	private static String serializedClassifier = "/models/ner/english.muc.7class.distsim.crf.ser.gz";
+	private static String serializedClassifier = "/com/jgaap/resources/models/ner/english.muc.7class.distsim.crf.ser.gz";
 
 
 	@Override

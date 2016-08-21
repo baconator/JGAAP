@@ -60,7 +60,7 @@ public class MWFunctionWordsEventDriver extends NaiveWordEventDriver {
 
     static {
     	ImmutableSet.Builder<String> builder = ImmutableSet.builder();
-    	BufferedReader reader = new BufferedReader(new InputStreamReader(MWFunctionWordsEventDriver.class.getResourceAsStream(JGAAPConstants.JGAAP_RESOURCE_PACKAGE+"MWfunctionwords.dat")));
+    	BufferedReader reader = new BufferedReader(new InputStreamReader(MWFunctionWordsEventDriver.class.getResourceAsStream(JGAAPConstants.JGAAP_RESOURCE_PACKAGE+ "MWfunctionwords.dat")));
     	String current;
     	try {
 			while((current = reader.readLine())!=null) {
