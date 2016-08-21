@@ -81,13 +81,6 @@
             <artifactId>weka-stable</artifactId>
             <version>3.6.6</version>
         </dependency>
-        <dependency>
-            <groupId>fake</groupId>
-            <artifactId>fake</artifactId>
-            <version>1.0</version>
-            <systemPath>${project.basedir}/lib/external/WordSegment.jar</systemPath>
-            <scope>system</scope>
-        </dependency>
     </dependencies>
     <build>
         <plugins>
