@@ -19,7 +19,7 @@
       <src_folder value="file://$MODULE_DIR$/unittests" expected_position="1" />
     </src_description>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -172,6 +172,15 @@
       <library name="javassist-3.17.1.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/lib/external/javassist-3.17.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: fake:fake:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/external/WordSegment.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
