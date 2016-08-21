@@ -50,7 +50,7 @@ public class NamingTimeEventDriver extends NumericTransformationEventDriver {
     	return API.getInstance().getLanguage().getLanguage().equalsIgnoreCase("english");
     }
     
-    private static ImmutableMap<String, String> namingTimes = getTransformationMap("com/jgaap/resources/ELPnaming.dat");
+    private static ImmutableMap<String, String> namingTimes = getTransformationMap("ELPnaming.dat");
     private NaiveWordEventDriver wordEventDriver = new NaiveWordEventDriver();
     
     
