@@ -33,11 +33,9 @@
             <version>e769975e70</version>
         </dependency>
         <dependency>
-            <groupId>fake</groupId>
-            <artifactId>fake</artifactId>
-            <version>1.0</version>
-            <systemPath>${project.basedir}/lib/external/guava-17.0.jar</systemPath>
-            <scope>system</scope>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>17.0</version>
         </dependency>
         <dependency>
             <groupId>fake</groupId>
