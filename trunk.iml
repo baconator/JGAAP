@@ -177,6 +177,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.2" level="project" />
+    <orderEntry type="library" name="Maven: edu.mit:jwi:2.2.3" level="project" />
     <orderEntry type="module-library">
       <library name="Maven: fake:fake:1.0">
         <CLASSES>
