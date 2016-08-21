@@ -38,18 +38,14 @@
             <version>17.0</version>
         </dependency>
         <dependency>
-            <groupId>fake</groupId>
-            <artifactId>fake</artifactId>
-            <version>1.0</version>
-            <systemPath>${project.basedir}/lib/external/javassist-3.17.1.jar</systemPath>
-            <scope>system</scope>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.17.1-GA</version>
         </dependency>
         <dependency>
-            <groupId>fake</groupId>
-            <artifactId>fake</artifactId>
-            <version>1.0</version>
-            <systemPath>${project.basedir}/lib/external/jscience-4.3.1.jar</systemPath>
-            <scope>system</scope>
+            <groupId>org.jscience</groupId>
+            <artifactId>jscience</artifactId>
+            <version>4.3.1</version>
         </dependency>
         <dependency>
             <groupId>fake</groupId>

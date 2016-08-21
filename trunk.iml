@@ -181,6 +181,7 @@
     <orderEntry type="library" name="Maven: edu.mit:jwi:2.2.3" level="project" />
     <orderEntry type="library" name="Maven: com.github.mark-watson:fasttag_v2:e769975e70" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:17.0" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.17.1-GA" level="project" />
     <orderEntry type="module-library">
       <library name="Maven: fake:fake:1.0">
         <CLASSES>
