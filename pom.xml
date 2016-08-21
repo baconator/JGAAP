@@ -14,6 +14,10 @@
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
+        <repository>
+            <id>central</id>
+            <url>https://repo1.maven.org/maven2</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -48,18 +52,14 @@
             <version>4.3.1</version>
         </dependency>
         <dependency>
-            <groupId>fake</groupId>
-            <artifactId>fake</artifactId>
-            <version>1.0</version>
-            <systemPath>${project.basedir}/lib/external/junit.jar</systemPath>
-            <scope>system</scope>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.1</version>
         </dependency>
         <dependency>
-            <groupId>fake</groupId>
-            <artifactId>fake</artifactId>
-            <version>1.0</version>
-            <systemPath>${project.basedir}/lib/external/log4j-1.2.17.jar</systemPath>
-            <scope>system</scope>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
         </dependency>
         <dependency>
             <groupId>fake</groupId>
